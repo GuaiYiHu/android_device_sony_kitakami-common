@@ -16,8 +16,6 @@
 
 COMMON_PATH := device/sony/kitakami-common
 
-TARGET_SPECIFIC_HEADER_PATH += $(COMMON_PATH)/include
-
 BOARD_VENDOR := sony
 
 # Bootloader
@@ -156,7 +154,7 @@ TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_kitakami
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # RIL
-BOARD_PROVIDES_LIBRIL := true
+BOARD_RIL_CLASS := ../../../$(COMMON_PATH)/ril
 TARGET_RIL_VARIANT := caf
 
 # SELinux
