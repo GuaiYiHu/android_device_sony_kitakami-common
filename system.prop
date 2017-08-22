@@ -63,6 +63,7 @@ mmp.enable.3g2=true
 mm.enable.smoothstreaming=true
 media.aac_51_output_enabled=true
 av.debug.disable.pers.cache=true
+persist.media.treble_omx=false
 
 # Perf
 ro.min_freq_0=384000
