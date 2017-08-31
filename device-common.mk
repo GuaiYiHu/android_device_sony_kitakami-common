@@ -132,6 +132,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/sap.conf:system/etc/sap.conf
 
 PRODUCT_PACKAGES += \
+    libshims_get_process_name \
     android.hardware.gnss@1.0-impl
 
 # Fingerprint
