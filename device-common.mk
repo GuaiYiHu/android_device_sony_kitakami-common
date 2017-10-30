@@ -105,6 +105,7 @@ PRODUCT_PACKAGES += \
     gralloc.msm8994 \
     hwcomposer.msm8994 \
     libtinyxml \
+    libgenlock \
     memtrack.msm8994
 
 # GPS
