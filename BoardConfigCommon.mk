@@ -164,6 +164,9 @@ include device/qcom/sepolicy/legacy-sepolicy.mk
 BOARD_SEPOLICY_DIRS += \
     $(COMMON_PATH)/sepolicy
 
+# Shims
+TARGET_LD_SHIM_LIBS := /system/lib/hw/camera.qcom.so|camera.qcom_shim.so
+
 # WiFi
 BOARD_WLAN_DEVICE           := bcmdhd
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
